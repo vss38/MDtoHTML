@@ -27,10 +27,10 @@ pip install markdown pygments Markdown-Checklist
 
 ```bash
 # Обязательные аргументы
-python md_to_html_converter.py -i ./путь/к/заметкам -o документация.html
+python mdtohtml.py -i ./путь/к/заметкам -o документация.html
 
 # С дополнительными опциями
-python md_to_html_converter.py \
+python mdtohtml.py \
     --input-dir ./мои_проекты \
     --output-file проект_доки.html \
     --root-doc README.md \
